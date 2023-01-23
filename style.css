@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Retro Gaming';
+    src: url('font/RetroGaming.eot');
+    src: url('font/RetroGaming.eot?#iefix') format('embedded-opentype'),
+        url('font/RetroGaming.woff2') format('woff2'),
+        url('font/RetroGaming.woff') format('woff'),
+        url('font/RetroGaming.ttf') format('truetype'),
+        url('font/RetroGaming.svg#RetroGaming') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+canvas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+.title{
+    font-family: "Retro Gaming";
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+}
